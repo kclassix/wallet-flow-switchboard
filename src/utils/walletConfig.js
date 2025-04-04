@@ -26,7 +26,7 @@ const connectors = [
   new WalletConnectConnector({
     chains,
     options: {
-      projectId: 'YOUR_PROJECT_ID', // To be replaced with actual project ID
+      projectId: '71284d4eebb94119e15d9281752b6c88', // To be replaced with actual project ID
     },
   }),
 ];
@@ -45,7 +45,7 @@ const ethereumClient = new EthereumClient(wagmiConfig, chains);
 // Create web3modal
 const web3modal = new Web3Modal(
   {
-    projectId: 'YOUR_PROJECT_ID', // To be replaced with actual project ID
+    projectId: '71284d4eebb94119e15d9281752b6c88', // To be replaced with actual project ID
     themeMode: 'dark',
     themeVariables: {
       '--w3m-font-family': 'Roboto, sans-serif',
